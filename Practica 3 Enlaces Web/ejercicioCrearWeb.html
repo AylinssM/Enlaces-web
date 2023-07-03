@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB CON MENUS</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            overflow-x: hidden;
+        }
+        header{
+            width: 100%;
+            height: 23vh;
+            text-align: center;
+            background-color: #ef7689;
+            padding-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        main {
+            width: 100%;
+            height: 57vh;
+            background-color: #ff9b8f;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url("img/kisspng-photo-booth-we-heart-it-clip-art-heart-watercolor-5abf9ddf6c7e28.5766563215225072314444.png");
+            font-weight: bold;
+            border: 2px solid;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        footer {
+            width: 100%;
+            height: 20vh;
+            background-color: #ef7689;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        ul{
+            list-style-type: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        li{
+            display: inline-block;
+            padding-left: 3rem;
+        }
+        ul#menusPaginas li a img {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        ul#menusPaginas li a:hover img {
+            transform: scale(1.2);
+        }
+        ul#menusPaginas2 li a.enlaces:hover {
+            color: #ff9b8f;
+        }
+        p{
+            margin-top: auto;
+            padding: 1.7rem 2rem;
+        }
+        img{
+            width: 40px;
+            height: 40px;
+        }
+        .enlaces{
+            padding-right: 3rem;
+            border-right: 2px solid black;
+            color: black;
+            font-weight: bold;
+        }
+        .link5 {
+            border-right: none;
+        }
+        hr{
+            border-color: black;
+            width: 60rem;
+        }
+        h1{
+            text-shadow: 0.1em 0.1em pink;
+        }
+        h2{
+            margin-top: auto;
+            padding-top: 1.5rem;
+            text-shadow: 0.1em 0.1em pink;
+        }
+
+        /* --------- MEDIA QUERIES ------- */
+        @media (max-width: 768px) {
+            header {
+                height: auto;
+                padding-top: 1rem;
+            }
+            main {
+                height: auto;
+                padding: 2rem;
+            }
+            footer {
+                height: auto;
+                padding-bottom: 1rem;
+            }
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            li {
+                padding: 1rem;
+            }
+            p {
+                padding: 1rem;
+            }
+            hr {
+                width: 100%;
+            }
+        } 
+
+        @media (min-width: 769px) and (max-width: 1400px) {
+            header {
+                height: auto;
+                padding-top: 1rem;
+            }
+            main {
+                height: auto;
+                padding: 2rem;
+            }
+            footer {
+                height: auto;
+                padding-bottom: 1rem;
+            }
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            li {
+                padding: 1rem;
+            }
+            p {
+                padding: 1rem;
+            }
+            hr {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WEB CON MENÚS A PÁGINAS EXTERNAS</h1>
+        <hr>
+        <div id="menuArriba">
+            <ul id="menusPaginas">
+                <li class="menuItem"><a href="https://www.google.es/"><img src="img/bxl-google.svg" alt="Icono de Google" title="Google"></a></li>
+                <li class="menuItem"><a href="https://www.apple.com/es/"><img src="img/bxl-apple.svg" alt="Icono de Apple" title="Apple"></a></li>
+                <li class="menuItem"><a href="https://www.microsoft.com/es-es/"><img src="img/bxl-microsoft.svg" alt="Icono de Microsoft" title="Microsoft"></a></li>
+                <li class="menuItem"><a href="https://www.mozilla.org/es-ES/"><img src="img/bxl-firefox.svg" alt="Icono de Mozilla Firefox" title="Mozilla Firefox"></a></li>
+                <li class="menuItem"><a href="https://www.opera.com/es"><img src="img/bxl-opera.svg" alt="Icono de Opera" title="Opera"></a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia consectetur cumque minus quod eum totam explicabo! Commodi omnis iure saepe aliquam quae neque quod ut! Quibusdam rerum possimus omnis assumenda voluptas ab, velit nulla inventore error quam perspiciatis eos nam! Corrupti eveniet assumenda est ab doloribus maxime aliquid! Quis doloribus numquam nam, ad ex nesciunt doloremque tenetur aliquid aspernatur repellat voluptatibus possimus minima fugiat necessitatibus eligendi distinctio illum perspiciatis debitis natus molestiae earum. Doloribus, consectetur?
+        </p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati laudantium, sit deserunt voluptates facilis a iusto natus modi eligendi non, nisi minima. Officia autem a, ipsum molestias deserunt dignissimos sed nulla exercitationem repellendus amet aspernatur impedit corrupti ullam culpa fugit, sunt eos quis natus omnis facere odit ex vel mollitia laboriosam! Autem cum perferendis optio, quibusdam animi tenetur consectetur? Impedit voluptatem exercitationem doloremque id expedita ducimus sit, nihil laboriosam nostrum praesentium corrupti, iusto repellendus quidem soluta. Libero aliquam inventore modi nostrum recusandae rerum? Voluptate aut numquam similique atque impedit labore.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aliquam, provident eius dolorum at ab ea fugit possimus sapiente? Et, tempore commodi magni at vitae debitis nulla ratione! Corrupti sed quidem quasi, natus eius id impedit officiis accusantium est quos laudantium voluptatum saepe modi? Sint perspiciatis voluptas numquam? Corrupti enim rerum exercitationem expedita id ducimus tempore ex! Quae sunt quidem laudantium nostrum consequuntur, fuga vitae accusantium? Inventore blanditiis ipsa consequuntur illo quidem voluptatum, nulla, odit impedit tempora hic pariatur officia labore possimus itaque unde nobis magnam ex, est assumenda? Labore, incidunt natus? Omnis consectetur pariatur ullam ex dicta ratione, iure quo quidem excepturi repudiandae cupiditate soluta libero debitis placeat numquam fuga voluptas impedit atque tenetur, sint quasi tempora optio. Odit.</p>
+    </main>
+    <footer>
+        <h2>ENLACES A PÁGINAS RELACIONADAS</h2>
+        <hr>
+        <div id="menuAbajo">
+            <ul id="menusPaginas2">
+                <li class="menuItem2"><a class="enlaces" href="/enlacePagina1.html">ENLACE 1</a></li>
+                <li class="menuItem2"><a class="enlaces" href="/enlacePagina2.html">ENLACE 2</a></li>
+                <li class="menuItem2"><a class="enlaces" href="/enlacePagina3.html">ENLACE 3</a></li>
+                <li class="menuItem2"><a class="enlaces" href="/enlacePagina4.html">ENLACE 4</a></li>
+                <li class="menuItem2"><a class="enlaces link5" href="/enlacePagina5.html">ENLACE 5</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
+
+
